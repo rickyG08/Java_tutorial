@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: any digit (0..9)
-- text: letter of the alphabet
-- text: dollar sign ($)
 - text: underscore (_)
+- text: letter of the alphabet
+- text: any digit (0..9)
+- text: dollar sign ($)
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:
@@ -19,5 +19,8 @@ files:
       }
     }
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Wrong solution
+  time: Thu, 13 May 2021 06:07:53 UTC
 record: -1
